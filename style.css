@@ -1,0 +1,98 @@
+body {
+            background: #f3f2f3;
+            color: #000000;
+            font-family: Trebuchet MS, Arial, Times New Roman;
+            font-size: 12px;
+}
+ 
+#container {
+            background: #FFFFFF;
+            margin: 30px auto;
+            width: 900px;
+            height: 1000px;
+}
+ 
+#header {
+            background: #838283;
+            height: 200px;
+            width: 900px;
+}
+ 
+#navigation {
+            background: #a2a2a2;
+            width: 900px;
+            height: 20px;
+}
+ 
+#menu {
+width: 180px; /* Ширина меню */
+float: left;
+height: 680px;
+ background-color: #f0f0f0; /* Цвет фона */
+}
+ 
+			ul {
+	width: 180px; /* Ширина меню */
+    list-style: none; /* Для списка убираем маркеры */
+    margin: 0; /* Нет отступов вокруг */
+    padding: 0; /* Убираем поля вокруг текста */
+    font-family: Arial, sans-serif; /* Рубленый шрифт для текста меню */
+    font-size: 10pt; /* Размер названий в пункте меню */
+   }
+   li ul {
+    position: absolute; /* Подменю позиционируются абсолютно */
+    display: none; /* Скрываем подменю */
+    margin-left: 165px; /* Сдвигаем подменю вправо */
+    margin-top: -2em; /* Сдвигаем подменю вверх */
+   }
+   li a {
+    display: block; /* Ссылка как блочный элемент */
+    padding: 5px; /* Поля вокруг надписи */
+    text-decoration: none; /* Подчеркивание у ссылок убираем */
+    color: #666; /* Цвет текста */
+    border: 1px solid #ccc;/* Рамка вокруг пунктов меню */
+    background-color: #f0f0f0; /* Цвет фона */
+    border-bottom: none; /* Границу снизу не проводим */
+   }
+   li a:hover {
+    color: #ffe; /* Цвет текста активного пункта */
+    background-color: #5488af; /* Цвет фона активного пункта */
+   }
+   li:hover ul { 
+    display: block; /* При выделении пункта курсором мыши отображается подменю */
+   }
+   .brd {
+    border-bottom: 1px solid #ccc; /* Линия снизу */
+   }
+
+#content {
+             background: #c7b39b url(music.jpeg);
+            float: right;
+            width: 720px;
+            height: 680px;
+}
+ 
+#clear {
+            clear:both;
+}
+ 
+#footer {
+            background: #838283;
+            height: 100px;
+            width: 900px;
+}
+.layer1 {
+    font: 12pt Times New Roman;  
+	margin:8px; padding:6px; 
+   } 
+    p {
+    text-indent: 40px; /* Отступ первой строки в пикселах */
+   }
+ IMG.fig {
+    float: right; /* Обтекание картинки по левому краю */
+    padding-left: 10px; /* Отступ слева */
+    padding-bottom: 10px; /* Отступ снизу */
+   }
+P.fig1 {
+    text-align: center; /* Выравнивание по центру */
+   }
